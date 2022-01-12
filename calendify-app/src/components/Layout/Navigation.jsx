@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Box, IconButton, Menu, Button, MenuItem, Typography } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 
-const pages = ['Browse', 'Pricing']
+const pages = ['Browse', 'Create']
 
 const Navigation = () => {
     const [anchorElNav, setAnchorElNav] = useState(null)
