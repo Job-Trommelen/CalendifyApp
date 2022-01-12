@@ -1,7 +1,9 @@
+import Header from "./components/Layout/Header";
+
 const App = () => {
   return (
-    <div className="App">
-  
+    <div className="container">
+      <Header title="Calendify"/>
     </div>
   );
 }
